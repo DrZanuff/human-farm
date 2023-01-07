@@ -6,6 +6,7 @@ export const PodContainerContainer = styled.div`
   width: 100%;
   height: 100%;
   justify-content: center;
+  align-items: center;
 `
 export const PodList = styled.div`
   display: flex;
@@ -13,7 +14,7 @@ export const PodList = styled.div`
   padding: 40px;
   flex-wrap: wrap;
   height: 100%;
-  height: 100%;
+  max-width: 80vw;
   max-height: 300px;
   overflow-y: auto;
 `
