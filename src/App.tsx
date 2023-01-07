@@ -1,11 +1,7 @@
-import { TestExample } from './components/TestExample'
+import { MainScreen } from './components/MainScreen'
 
 function App() {
-  return (
-    <div>
-      <TestExample value="Hello World" />
-    </div>
-  )
+  return <MainScreen />
 }
 
 export default App
