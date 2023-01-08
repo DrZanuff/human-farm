@@ -1,4 +1,4 @@
-import { Upgrades } from '../Upgrades'
+import { UpgradeHeaderButton } from '../_upgrade/UpgradeHeaderButton'
 import { Typography } from '@mui/material'
 import type { HeaderProps } from './Header.types'
 import * as S from './Header.styles'
@@ -8,7 +8,7 @@ export function Header({ value }: HeaderProps) {
     <S.HeaderContainer>
       <Typography>POD NUMBER - TIME 00:00</Typography>
       <h2>{value}</h2>
-      <Upgrades />
+      <UpgradeHeaderButton />
     </S.HeaderContainer>
   )
 }
